@@ -28,3 +28,11 @@ function johnLennonFacts(johnArray) {
   return newArray;
 };
 
+var text = "I love the Beatles";
+var exclamation = "!"
+var i = 0;
+do {
+    text + exclamation(i);
+    i++;
+}
+while (i < 15);
