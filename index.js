@@ -27,3 +27,4 @@ function johnLennonFacts(johnArray) {
   newArray.push();
   return newArray;
 };
+
