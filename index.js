@@ -6,18 +6,6 @@ function theBeatlesPlay(musicians, instruments) {
     array.push(console.log(musicians[i] + " plays " + instruments[i]));
 }
 
-
-
-describe('johnLennonFacts', function(){
-  it("returns an array of strings with exclamation points", function() {
-    expect(johnLennonFacts([
-      "He was the last Beatle to learn to drive",
-      "He was never a vegetarian",
-      "He was a choir boy and boy scout",
-      "He hated the sound of his own voice"
-    ])).toEqual(["He was the last Beatle to learn to drive!!!", "He was never a vegetarian!!!", "He was a choir boy and boy scout!!!", "He hated the sound of his own voice!!!"]);
-
-
 var johnArray = [];
 function johnLennonFacts(johnArray) {
   var newArray = []
@@ -28,11 +16,13 @@ function johnLennonFacts(johnArray) {
   return newArray;
 };
 
-var text = "I love the Beatles";
-var exclamation = "!"
+var loveArray = [];
+var text = "I love the Beatles!";
 var i = 0;
+function iLovetheBeatles(i) {
 do {
-    text + exclamation(i);
+    text;
     i++;
 }
 while (i < 15);
+}
