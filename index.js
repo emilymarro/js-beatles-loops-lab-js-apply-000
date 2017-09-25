@@ -20,7 +20,7 @@ function johnLennonFacts(johnArray) {
 var loveArray = [];
 var text = "I love the Beatles!";
 var i = 0;
-function iLovetheBeatles(i) {
+var iLovetheBeatles = function(i) {
 do {
     text;
     i++;
